@@ -1,0 +1,24 @@
+# Venv
+venv/
+.venv/
+env/
+
+# Cache
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Jupyter/IDE
+.ipynb_checkpoints
+.vscode/
+
+# Node dependencies
+node_modules/
+
+# Directory of React
+red_flag_finder_frontend/build/
+
+# System logs
+.DS_Store # Archivos de macOS
+npm-debug.log
