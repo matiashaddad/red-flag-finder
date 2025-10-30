@@ -2,6 +2,7 @@
 venv/
 .venv/
 env/
+.env/
 
 # Cache
 __pycache__/
@@ -14,11 +15,12 @@ __pycache__/
 .vscode/
 
 # Node dependencies
-node_modules/
+**/node_modules
+package-lock.json
 
 # Directory of React
-red_flag_finder_frontend/build/
+**/build
 
 # System logs
-.DS_Store # Archivos de macOS
+.DS_Store
 npm-debug.log
